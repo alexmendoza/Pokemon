@@ -4,6 +4,7 @@ import android.util.Log;
 
 import app.alexmendoza.com.pokemon.api.RestClient;
 import app.alexmendoza.com.pokemon.api.RetrofitUtils;
+import app.alexmendoza.com.pokemon.modelo.AbilityFeed;
 import app.alexmendoza.com.pokemon.modelo.PokemonFeed;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -45,4 +46,7 @@ public class MainPresenter {
             }
         });
     }
+
+
+
 }

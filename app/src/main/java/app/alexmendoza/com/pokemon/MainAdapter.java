@@ -60,5 +60,9 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.PokemonViewHol
             tvName = (TextView)itemView.findViewById(R.id.Tv_name);
         }
     }
+
+
+
+
 }
 
